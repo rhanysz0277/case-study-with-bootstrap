@@ -11,6 +11,8 @@
 .customnav{
     height:99px !important;
     background-color:white !important;
+    position:fixed;
+    width:100%;
 }
 .navbar-nav a{
     margin-left:106px;
@@ -19,6 +21,18 @@
 }
 .csarea{
     background-color:#5E6269;
-    height:100vh;
-    height:calc(100vh - 99px);
+    height:100%;
+    height:calc(100% - 99px);
+    padding-top:99px;
+    width:100%;
+    display:flex;
+}
+#mvacaPic{
+    height:914px;
+    width:525px;
+    margin-top:16px;
+    margin-left:11px;
+}
+.phases{
+    display:flex;
 }
