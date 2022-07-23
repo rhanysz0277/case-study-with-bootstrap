@@ -28,11 +28,21 @@
     display:flex;
 }
 #mvacaPic{
-    height:914px;
-    width:525px;
+    width:30%;
+    min-height:914px;
+    min-width:525px;
     margin-top:16px;
     margin-left:11px;
 }
 .phases{
     display:flex;
+    justify-content:space-around;
+    padding-top:50px;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.phasecircle{
+    height:102px;
+    width:102px;
 }
