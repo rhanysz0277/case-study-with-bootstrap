@@ -1,3 +1,6 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 #logo{
     height:99px;
 }
@@ -34,23 +37,22 @@
     margin-top:16px;
     margin-left:11px;
 }
+.phasescontainer{
+    width:100%;
+}
+.phasescontainer h1{
+    text-align:center;
+    color:black;
+}
 .phases{
     display:flex;
     justify-content:space-around;
     padding-top:50px;
-    width:50%;
+    width:100%;
     margin-left:auto;
     margin-right:auto;
 }
 .phasecircle{
     height:102px;
     width:102px;
-}
-.csinfo{
-    width:50%;
-    background-color:#8BADE0;
-    height:50%;
-    border:1px black solid;
-    margin-bottom:44px;
-    margin-right:43px;
 }
