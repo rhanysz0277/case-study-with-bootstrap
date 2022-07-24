@@ -42,7 +42,7 @@ body{
 }
 .phasescontainer h1{
     text-align:center;
-    color:black;
+    color:white;
 }
 .phases{
     display:flex;
@@ -55,4 +55,28 @@ body{
 .phasecircle{
     height:102px;
     width:102px;
+}
+.phase1{
+    background-color:#8BADE0;
+    color:black;
+}
+.phase2{
+    background-color:#3D7DDB;
+    color:black;
+}
+.phase3{
+    background-color:#0143A8;
+    color:white;
+}
+.phase4{
+    background-color:#1A345C;
+    color:white;
+}
+.phase5{
+    background-color:#5E6269;
+    color:white;
+}
+.phase6{
+    background-color:#ffffff;
+    color:black;
 }
